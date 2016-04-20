@@ -1,4 +1,4 @@
-# Laravel Push Notification
+# Laravel Push Notification v1.0.1
 
 Based on https://github.com/davibennun/laravel-push-notification forked from https://github.com/larkinwhitaker/laravel-push-notification
 
