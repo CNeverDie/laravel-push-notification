@@ -1,15 +1,15 @@
 <?php 
 
-namespace Witty\LaravelPushNotification;
+namespace Asachanfbd\LaravelPushNotification;
 
 use Illuminate\Support\Facades\Config;
-use Witty\LaravelPushNotification\PushNotifier;
+use Asachanfbd\LaravelPushNotification\PushNotifier;
 
 class PushNotificationBuilder 
 {
 	/**
 	 * @param mixed $platform_name
-	 * @return \Witty\LaravelPushNotification\PushNotifier
+	 * @return \Asachanfbd\LaravelPushNotification\PushNotifier
 	 */
     public function app($platform_name)
     {

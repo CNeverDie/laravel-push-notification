@@ -1,6 +1,6 @@
 <?php 
 
-namespace Witty\LaravelPushNotification;
+namespace Asachanfbd\LaravelPushNotification;
 
 use Sly\NotificationPusher\PushManager,
     Sly\NotificationPusher\Model\Device,
@@ -28,7 +28,7 @@ class PushNotifier
 
     /**
 	 * @param mixed $addressee
-	 * @return \Witty\LaravelPushNotification\PushNotifier
+	 * @return \Asachanfbd\LaravelPushNotification\PushNotifier
 	 */
     public function to($addressee)
     {
@@ -40,7 +40,7 @@ class PushNotifier
     /**
 	 * @param mixed $message
 	 * @param array $options
-	 * @return \Witty\LaravelPushNotification\PushNotifier
+	 * @return \Asachanfbd\LaravelPushNotification\PushNotifier
 	 */
     public function send($message, $options = []) 
     {

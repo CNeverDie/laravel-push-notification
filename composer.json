@@ -1,7 +1,7 @@
 {
     "name": "asachanfbd/laravel-push-notification",
     "description": "Laravel 5 Package for sending push notifications to Android and iOS devices. Same as witty's with added support for Laravel 5.2",
-    "keywords": ["apns", "gcm", "push", "notification", "laravel", "laravel 5"],
+    "keywords": ["android", "push", "notification", "laravel", "laravel 5"],
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.0.* | 5.1.* | 5.2.*",
+        "illuminate/support": "5.1.* | 5.2.*",
         "sly/notification-pusher": "2.x"
     },
     "autoload": {
