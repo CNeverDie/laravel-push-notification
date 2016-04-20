@@ -1,27 +1,28 @@
 # laravel-push-notification
 
-Based off of https://github.com/davibennun/laravel-push-notification with support for upto Laravel 5.2.*.
+Based on https://github.com/davibennun/laravel-push-notification forked from https://github.com/larkinwhitaker/laravel-push-notification
+Added support for Laravel 5.2.*.
 
 Installation
 ----
 
 Update your `composer.json` file to include this package as a dependency
 ```json
-"witty/laravel-push-notification": "dev-master"
+composer required asachanfbd/laravel-push-notification
 ```
 
 
 Register the PushNotification service provider by adding it to the providers array in the `config/app.php` file.
 ```php
 'providers' => array(
-    'Witty\LaravelPushNotification\PushNotificationServiceProvider'
+    'Asachanfbd\LaravelPushNotification\PushNotificationServiceProvider'
 )
 ```
 
 Alias the PushNotification facade by adding it to the aliases array in the `config/app.php` file.
 ```php
 'aliases' => array(
-	'PushNotification'      => 'Witty\LaravelPushNotification\PushNotification',
+	'PushNotification'      => 'Asachanfbd\LaravelPushNotification\PushNotification',
 )
 ```
 
