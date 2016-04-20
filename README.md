@@ -62,3 +62,10 @@ PushNotification::app('iOS')
                 ->send('Hello World, i`m a push message');
 
 ```
+
+#### Usage advice
+This package should be used with [Laravel Queues], so pushes dont blocks the user and are processed in the background, meaning a better flow.
+
+
+
+[Laravel Queues]:http://laravel.com/docs/queues
