@@ -1,14 +1,15 @@
-# laravel-push-notification
+# Laravel Push Notification
 
 Based on https://github.com/davibennun/laravel-push-notification forked from https://github.com/larkinwhitaker/laravel-push-notification
+
 Added support for Laravel 5.2.*.
 
 Installation
 ----
 
-Update your `composer.json` file to include this package as a dependency
+Installing the package
 ```json
-composer required asachanfbd/laravel-push-notification
+composer require asachanfbd/laravel-push-notification
 ```
 
 
